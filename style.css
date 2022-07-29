@@ -11,6 +11,15 @@
     align-items: center;
 }
 
+.comp{
+    margin-left: 7vw;
+    
+}
+.img-flui {
+    max-width: 11%; 
+    height: auto;
+}
+
 
 
 .face{
@@ -27,5 +36,8 @@
 
     .r-info h1{
         text-align: center;
+    }
+    .compa{
+        display: none ;
     }
 }
