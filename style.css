@@ -2,7 +2,7 @@
 
 .head-m{
     position: absolute;
-    bottom: 15%;
+    bottom: 20%;
 }
 
 .register{
@@ -28,6 +28,18 @@
 
 
 @media screen and (max-width: 768px) {
+    .head-m{
+        position: absolute;
+        bottom: 4%;
+    }
+    .head-m h5,p{
+        font-size: 0.8rem;
+    }
+    
+    .head-m h5{
+        font-size: 0.8rem;
+    }
+
     .register{
         display: flex;
         flex-direction: column;

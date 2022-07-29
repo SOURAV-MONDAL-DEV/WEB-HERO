@@ -11,9 +11,9 @@
   <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class=" container my-5 navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
-                <a class="navbar-brand" href="#">WEB-HERO</a>
+                <a class=" fw-bold fs-2 navbar-brand" href="#">WEB-HERO</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -102,11 +102,11 @@
 
     <main class="container" >
       <!-- register start -->
-      <section>
-          <div class=" bg-info register p-5">
+      <section class=" my-5 " >
+          <div class=" bg-info register p-5 my-5 ">
             <div class="r-info">
-              <h1>Ready to join?</h1>
-              <p>Join our learning program. our course season 6 month long. <br> you could get special discount if you resister in this month.</p>
+              <h1 class="text-white" >Ready to join?</h1>
+              <p class="text-white" >Join our learning program. our course season 6 month long. <br> you could get special discount if you resister in this month.</p>
             </div>
             <!-- Button trigger modal -->
             <div class="r-btn">
@@ -155,8 +155,65 @@
       </section>
       <!-- register end -->
 
+      <!-- FAQ start -->
+      <section class=" my-5">
+
+        <div>
+        <h1 class="text-center" >Frequently Asked Questions</h1>
+        <p class="text-center" >This is some Frequently Asked Questions (FAQ) That is asked by the users. You may find yor ans here.</p>
+        
+        </div>
+        
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                What is the Difference between flex and grid?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.     </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+               What is the difference between bootstrap and tailwind css?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+               Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness.     </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                What is CSS box model?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                the CSS box model refers to how HTML elements are modeled in browser engines and how the dimensions of those HTML elements are derived from CSS properties. It is a fundamental concept for the composition of HTML webpages.    </div>
+            </div>
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+            What is a semantic tag?
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+            <div class="accordion-body">
+            The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.    </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ end -->
+
       <!-- companies start -->
-      <section class=" compa mt-5">
+      <section class=" compa my-5">
         <h1 class="text-center fw-bold" >Trusted by over 800+ companies</h1>
         <div class="comp ">
           <img class=" img-flui m-3" src="images/company/company-2.png" alt="">
@@ -169,7 +226,7 @@
       </section>
       <!-- companies end -->
     </main>
-
+      <!-- footer start-->
     <footer class="bg-dark py-5" >
       <h1 class="text-center text-white pt-5" >WEB-HERO</h1>
       <p class="text-center text-white" >Office 41, Zawaya Buildin, Ghala Muscat, <br> Sultanate of Oman</p>
@@ -179,12 +236,9 @@
         <i class="fa-brands fa-twitter text-white bg-secondary bg-opacity-25 p-2 m-1 rounded-circle "></i>
         <i class="fa-brands fa-linkedin-in text-white bg-secondary bg-opacity-25 p-2 m-1 rounded-circle "></i>
         <i class="fa-brands fa-tiktok text-white bg-secondary bg-opacity-25 p-2 m-1 rounded-circle tik "></i>
-      
-      
       </div>
-      
-      </footer>
-
+     </footer>
+      <!-- footer end-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/0a32c5699f.js" crossorigin="anonymous"></script>
   </body>
