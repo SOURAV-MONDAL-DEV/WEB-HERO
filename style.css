@@ -1,5 +1,8 @@
 
+#body{
+    font-family: 'Poppins', sans-serif;
 
+}
 .head-m{
     position: absolute;
     bottom: 20%;
@@ -29,16 +32,18 @@
 
 @media screen and (max-width: 768px) {
     .head-m{
-        position: absolute;
+        /* position: absolute; */
         bottom: 4%;
     }
-    .head-m h5,p{
+    .head-m p{
         font-size: 0.8rem;
+        padding: 0%;
+        margin: 0%;
+    }
+    .head-m h1{
+        font-size: 1.5rem ;
     }
     
-    .head-m h5{
-        font-size: 0.8rem;
-    }
 
     .register{
         display: flex;
@@ -52,4 +57,27 @@
     .compa{
         display: none ;
     }
+}
+
+@media screen and (max-width: 400px) {
+    .head-m p{
+        font-size: 0.7rem;
+        padding: 0%;
+        margin: 0%;
+        margin-bottom: -10px;
+    }
+    .head-m h1{
+        font-size: 1rem ;
+        margin: 0px;
+    } 
+
+    .get-btn{
+        font-size: 0.7rem;
+        padding: 5px;
+        margin: 0%;
+    }
+    .slide-line{
+        display: none;
+    }
+
 }
